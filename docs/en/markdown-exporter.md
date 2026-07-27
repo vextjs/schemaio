@@ -383,7 +383,7 @@ console.log('✅ Document has been generated');
 
 ## Corresponding sample file
 
-**Example entry**: [markdown-exporter.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/markdown-exporter.ts)
+**Example entry**: [markdown-exporter.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/markdown-exporter.ts)
 **Description**: Covers the Chinese and English document generation and title/field placement check of `MarkdownExporter.export()`, suitable as a minimum template for document export.
 
 ---

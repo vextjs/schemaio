@@ -1,6 +1,6 @@
 {
   "name": "schema-dsl",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Progressive TypeScript schema DSL for concise, serializable field rules, validation, schema reuse, database/Markdown export, i18n, and runtime isolation",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -179,12 +179,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vextjs/schema-dsl.git"
+    "url": "git+https://github.com/devcodex-labs/schema-dsl.git"
   },
   "bugs": {
-    "url": "https://github.com/vextjs/schema-dsl/issues"
+    "url": "https://github.com/devcodex-labs/schema-dsl/issues"
   },
-  "homepage": "https://vextjs.github.io/schema-dsl",
+  "homepage": "https://devcodex-labs.github.io/schema-dsl/",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"

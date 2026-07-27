@@ -232,11 +232,11 @@ const englishNav = [
     items: [
       {
         text: 'Changelog',
-        link: 'https://github.com/vextjs/schema-dsl/blob/main/CHANGELOG.md'
+        link: 'https://github.com/devcodex-labs/schema-dsl/blob/main/CHANGELOG.md'
       },
       {
         text: 'Contributing',
-        link: 'https://github.com/vextjs/schema-dsl/blob/main/CONTRIBUTING.md'
+        link: 'https://github.com/devcodex-labs/schema-dsl/blob/main/CONTRIBUTING.md'
       }
     ]
   }
@@ -264,11 +264,11 @@ const chineseNav = [
     items: [
       {
         text: '更新日志',
-        link: 'https://github.com/vextjs/schema-dsl/blob/main/CHANGELOG.md'
+        link: 'https://github.com/devcodex-labs/schema-dsl/blob/main/CHANGELOG.md'
       },
       {
         text: '贡献指南',
-        link: 'https://github.com/vextjs/schema-dsl/blob/main/CONTRIBUTING.md'
+        link: 'https://github.com/devcodex-labs/schema-dsl/blob/main/CONTRIBUTING.md'
       }
     ]
   }
@@ -304,7 +304,7 @@ export default defineConfig({
   ],
   plugins: [
     pluginSitemap({
-      siteUrl: 'https://vextjs.github.io/schema-dsl'
+      siteUrl: 'https://devcodex-labs.github.io/schema-dsl'
     })
   ],
   markdown: {
@@ -353,7 +353,7 @@ export default defineConfig({
       {
         icon: 'github',
         mode: 'link',
-        content: 'https://github.com/vextjs/schema-dsl'
+        content: 'https://github.com/devcodex-labs/schema-dsl'
       }
     ],
     footer: {

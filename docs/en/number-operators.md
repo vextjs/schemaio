@@ -430,13 +430,13 @@ s({ level: 'number:=5' }) // equal to
 ## 📚 Related documents
 
 - [DSL syntax quick check](./dsl-syntax.md)
-- [Complete example](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/number-operators.ts)
-- [Test Case](https://github.com/vextjs/schema-dsl/blob/main/test/unit/number-operators.test.ts)
-- [CHANGELOG](https://github.com/vextjs/schema-dsl/blob/main/CHANGELOG.md)
+- [Complete example](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/number-operators.ts)
+- [Test Case](https://github.com/devcodex-labs/schema-dsl/blob/main/test/unit/number-operators.test.ts)
+- [CHANGELOG](https://github.com/devcodex-labs/schema-dsl/blob/main/CHANGELOG.md)
 
 ---
 
 ## Corresponding sample file
 
-**Example entry**: [number-operators.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/number-operators.ts)
+**Example entry**: [number-operators.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/number-operators.ts)
 **Description**: Override the success/failure paths of `>=`, `<`, `<=`, `=` and integer comparison operators to facilitate direct observation of boundary behavior.

@@ -253,5 +253,5 @@ If these fields exist, `PRIMARY KEY` constraints are automatically added.
 
 ## Corresponding sample file
 
-**Example entry**: [mysql-exporter.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/mysql-exporter.ts)
+**Example entry**: [mysql-exporter.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/mysql-exporter.ts)
 **Description**: Overrides `export()` generation of DDL, primary key detection, and `generateIndex()` generation of normal/unique indexes.

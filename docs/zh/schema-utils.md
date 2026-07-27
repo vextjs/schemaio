@@ -511,7 +511,7 @@ const schema = s({
 
 ## 对应示例文件
 
-**示例入口**: [schema-utils.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/schema-utils.ts)  
+**示例入口**: [schema-utils.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/schema-utils.ts)  
 **说明**: 覆盖 `reusable()`、`createLibrary()`、`extend()`、`validateBatch()`、`withPerformance()` 和 `clone()` 的最小工作流。
 
 ---

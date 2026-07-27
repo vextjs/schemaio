@@ -265,7 +265,7 @@ Union types verify each type in turn until a match is found. The more types, the
 
 - [Extension Overview](./extensions-overview.md)
 - [Custom DSL Types](./custom-extensions.md)
-- [Contribution Guide](https://github.com/vextjs/schema-dsl/blob/main/CONTRIBUTING.md)
+- [Contribution Guide](https://github.com/devcodex-labs/schema-dsl/blob/main/CONTRIBUTING.md)
 
 ---
 
@@ -277,5 +277,5 @@ Union types verify each type in turn until a match is found. The more types, the
 
 ## Corresponding sample file
 
-**Example entry**: [union-types.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/union-types.ts)
+**Example entry**: [union-types.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/union-types.ts)
 **Description**: Overrides `oneOf` generation of `types:` syntax, string/number unions, and paths for mixing built-in and custom types.

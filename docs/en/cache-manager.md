@@ -342,5 +342,5 @@ Cache operation sequence:
 
 ## Corresponding sample file
 
-**Example entry**: [cache-manager.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/cache-manager.ts)
+**Example entry**: [cache-manager.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/cache-manager.ts)
 **DESCRIPTION**: Covers the actual behavior of `set/get/has`, LRU eviction, statistics reading, and `resetStats()`.

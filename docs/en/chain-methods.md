@@ -120,5 +120,5 @@ This page lists built-in field builder methods. For user-defined methods, first 
 
 ## Corresponding example file
 
-**Example entry**: [chain-methods.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/chain-methods.ts)
+**Example entry**: [chain-methods.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/chain-methods.ts)
 **Description**: Exercises common, string, number, array, object, output and runtime-scoped chain methods.

@@ -142,5 +142,5 @@ extension fields
 
 ## Corresponding sample file
 
-**Example entry**: [schema-utils-chaining.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/schema-utils-chaining.ts)
+**Example entry**: [schema-utils-chaining.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/schema-utils-chaining.ts)
 **Description**: Covers the chain combination of `omit()`, `extend()`, `pick()`, `partial()`, and the success/failure validation path of the derived schema.

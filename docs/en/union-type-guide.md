@@ -148,5 +148,5 @@ Test 3: ❌
 
 ## Corresponding sample file
 
-**Example entry**: [union-type-guide.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/union-type-guide.ts)
+**Example entry**: [union-type-guide.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/union-type-guide.ts)
 **Description**: Shows the "single string field matching multiple formats" solution based on `.pattern()`, and the corresponding error messages in Chinese and English.

@@ -18,5 +18,5 @@ The chained DSL will generate internal fields such as `_label`, `_customMessages
 
 ## Corresponding sample file
 
-**Example entry**: [schema-utils-advanced-issues.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/schema-utils-advanced-issues.ts)
+**Example entry**: [schema-utils-advanced-issues.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/schema-utils-advanced-issues.ts)
 **Description**: Covers the three most vulnerable points of internal field leakage, `required` synchronization and `clone()` deep copy boundaries.

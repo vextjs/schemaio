@@ -120,5 +120,5 @@ const schema = s({
 
 ## 对应示例文件
 
-**示例入口**: [chain-methods.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/chain-methods.ts)
+**示例入口**: [chain-methods.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/chain-methods.ts)
 **说明**: 覆盖通用、字符串、数字、数组、对象、输出和 runtime 作用域链式方法。

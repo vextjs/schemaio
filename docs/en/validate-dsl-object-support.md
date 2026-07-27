@@ -586,5 +586,5 @@ validate(schema, data);
 
 ## Corresponding sample file
 
-**Example entry**: [validate-dsl-object-support.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/validate-dsl-object-support.ts)
+**Example entry**: [validate-dsl-object-support.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/validate-dsl-object-support.ts)
 **DESCRIPTION**: Overrides passing in DSL objects directly, mixing `DslBuilder` with DSL strings, `validateAsync<T>()` typed returns, and the true support boundaries for top-level `validate()` / `validateAsync()`.

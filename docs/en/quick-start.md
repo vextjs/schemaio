@@ -293,7 +293,7 @@ const orderSchema = s({
 
 ### Example code
 
-- [Complete Quick Start example](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/quick-start.ts)
+- [Complete Quick Start example](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/quick-start.ts)
 
 Other topic examples are linked from the bottom of their own documents and use stable GitHub example links.
 
@@ -396,7 +396,7 @@ You now know the core `schema-dsl` workflow.
 
 ## Corresponding Example File
 
-**Example entry**: [quick-start.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/quick-start.ts)
+**Example entry**: [quick-start.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/quick-start.ts)
 **Description**: Covers the Hello World flow, the `schema-dsl/pure` + `s` authoring path, a user registration example, and the basic `validate()` plus `Validator.compile()` reuse path from the quick start. It can be run directly as a reference.
 
 ---

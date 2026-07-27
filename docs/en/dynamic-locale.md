@@ -251,7 +251,7 @@ app.post('/users', (req, res) => {
 });
 ```
 
-For a complete example, please refer to [dynamic-locale.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/dynamic-locale.ts).
+For a complete example, please refer to [dynamic-locale.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/dynamic-locale.ts).
 
 ### 3.2 Koa middleware
 
@@ -586,7 +586,7 @@ const schema = s({
 
 ## Corresponding sample file
 
-**Example entry**: [dynamic-locale.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/dynamic-locale.ts)
+**Example entry**: [dynamic-locale.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/dynamic-locale.ts)
 **Description**: Covers `Accept-Language` parsing, runtime locale selection, and validation entries for the same schema in different request languages.
 
 ---

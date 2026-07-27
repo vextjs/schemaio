@@ -125,5 +125,5 @@ Only augment `schema-dsl/string-types` when direct String-chain source is part o
 
 ## Corresponding sample file
 
-**Example entry**: [framework-extension-setup.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/framework-extension-setup.ts)
+**Example entry**: [framework-extension-setup.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/framework-extension-setup.ts)
 **Note**: Demonstrates an app-level installer, runtime-scoped installer, transform options, validation, and cleanup.

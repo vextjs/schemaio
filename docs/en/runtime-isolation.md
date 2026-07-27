@@ -100,5 +100,5 @@ Use the root `schema-dsl` entry or the stable `schema-dsl/pure` alias when you o
 
 ## Corresponding sample file
 
-**Example entry**: [runtime-isolation.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/runtime-isolation.ts)
+**Example entry**: [runtime-isolation.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/runtime-isolation.ts)
 **Description**: Covers isolated `createRuntime()` state, runtime-scoped `s` factories, custom runtime extensions, message providers, cache lifecycle and validation behavior.

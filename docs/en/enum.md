@@ -443,14 +443,14 @@ const schema = s({
 
 ## 📖 Related documents
 
-- [Basic usage](https://github.com/vextjs/schema-dsl/blob/main/README.md)
+- [Basic usage](https://github.com/devcodex-labs/schema-dsl/blob/main/README.md)
 - [Validation Rules](./validation-guide.md)
 - [API Reference](./api-reference.md)
-- [Sample code](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/enum.ts)
+- [Sample code](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/enum.ts)
 
 ---
 
 ## Corresponding sample file
 
-**Example entry**: [enum.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/enum.ts)
+**Example entry**: [enum.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/enum.ts)
 **Description**: Overrides the success/failure path for string, number, boolean, and array element enumerations and displays a custom enumeration error message.

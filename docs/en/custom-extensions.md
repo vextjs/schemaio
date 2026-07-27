@@ -632,5 +632,5 @@ Do not require users to call `uninstallStringExtensions()` before they can use `
 
 ## Corresponding sample file
 
-**Example entry**: [custom-extensions.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/custom-extensions.ts)
+**Example entry**: [custom-extensions.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/custom-extensions.ts)
 **Note**: The sample uses the declarative parameter API. When running examples inside this repository, build locally first so `dist/` matches the source.

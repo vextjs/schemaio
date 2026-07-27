@@ -491,12 +491,12 @@ console.log(enUS);
 
 - 查看 [多语言配置指南](./i18n.md)
 - 查看 [动态多语言配置指南](./dynamic-locale.md)
-- 提交 Issue: https://github.com/vextjs/schema-dsl/issues
+- 提交 Issue: https://github.com/devcodex-labs/schema-dsl/issues
 
 ---
 
 ## 对应示例文件
 
-**示例入口**: [add-custom-locale.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/add-custom-locale.ts)  
+**示例入口**: [add-custom-locale.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/add-custom-locale.ts)  
 **说明**: 覆盖 `Locale.addLocale()` 注册新语言、读取消息文本，以及在自定义 locale 下执行验证的最小工作流。
 

@@ -166,5 +166,5 @@ It is less suitable when every validation rule must be represented as an exact s
 
 ## Corresponding sample file
 
-**Example entry**: [design-philosophy.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/design-philosophy.ts)
+**Example entry**: [design-philosophy.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/design-philosophy.ts)
 **Description**: Demonstrates the design loop of configuration rules, serialization, deserialization, and validation.

@@ -430,14 +430,14 @@ s({ level: 'number:=5' })    // 等于
 ## 📚 相关文档
 
 - [DSL 语法速查](./dsl-syntax.md)
-- [完整示例](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/number-operators.ts)
-- [测试用例](https://github.com/vextjs/schema-dsl/blob/main/test/unit/number-operators.test.ts)
-- [CHANGELOG](https://github.com/vextjs/schema-dsl/blob/main/CHANGELOG.md)
+- [完整示例](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/number-operators.ts)
+- [测试用例](https://github.com/devcodex-labs/schema-dsl/blob/main/test/unit/number-operators.test.ts)
+- [CHANGELOG](https://github.com/devcodex-labs/schema-dsl/blob/main/CHANGELOG.md)
 
 ---
 
 ## 对应示例文件
 
-**示例入口**: [number-operators.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/number-operators.ts)  
+**示例入口**: [number-operators.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/number-operators.ts)  
 **说明**: 覆盖 `>=`、`<`、`<=`、`=` 和整数比较运算符的成功/失败路径，便于直接观察边界行为。
 

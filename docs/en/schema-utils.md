@@ -508,7 +508,7 @@ const schema = s({
 
 ## Corresponding sample file
 
-**Example entry**: [schema-utils.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/schema-utils.ts)
+**Example entry**: [schema-utils.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/schema-utils.ts)
 **Description**: Minimal workflow covering `reusable()`, `createLibrary()`, `extend()`, `validateBatch()`, `withPerformance()` and `clone()`.
 
 ---

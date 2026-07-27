@@ -474,5 +474,5 @@ console.log('Export completed!');
 
 ## Corresponding sample file
 
-**Example entry**: [export-guide.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/export-guide.ts)
+**Example entry**: [export-guide.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/export-guide.ts)
 **Description**: A minimal workflow that covers the same set of schemas and simultaneously exports to MongoDB, MySQL and PostgreSQL, making it easy to compare the results of multiple exporters.

@@ -100,5 +100,5 @@ provider 覆盖标准验证错误表、custom keyword、条件校验、异步 cu
 
 ## 对应示例文件
 
-**示例入口**: [runtime-isolation.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/runtime-isolation.ts)
+**示例入口**: [runtime-isolation.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/runtime-isolation.ts)
 **说明**: 覆盖隔离的 `createRuntime()` 状态、runtime 作用域 `s` factory、自定义 runtime 扩展、messageProvider、缓存生命周期和验证行为。

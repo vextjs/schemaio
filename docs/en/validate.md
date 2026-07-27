@@ -394,7 +394,7 @@ console.log(validateUser(data));
 
 ## Corresponding sample file
 
-**Example entry**: [validate.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/validate.ts)
+**Example entry**: [validate.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/validate.ts)
 **Description**: Override the success/failure path, default type conversion, and behavior difference after turning off `coerce` at the top level.
 
 ### Q1: How to validate optional fields?

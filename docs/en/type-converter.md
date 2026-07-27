@@ -289,5 +289,5 @@ console.log(regex.test('invalid-email'));     // false
 
 ## Corresponding sample file
 
-**Example entry**: [type-converter.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/type-converter.ts)
+**Example entry**: [type-converter.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/type-converter.ts)
 **Description**: Covers type mapping, enumeration to MySQL `ENUM(...)`, PostgreSQL actual UUID mapping, property name normalization, regex fetching, Schema merging and constraint extraction.

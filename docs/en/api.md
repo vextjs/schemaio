@@ -8,5 +8,5 @@ This file is used for compatibility with `./api.md` links in historical document
 
 ## Corresponding sample file
 
-**Example entry**: [api.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/api.ts)
+**Example entry**: [api.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/api.ts)
 **Instructions**: Connect the most commonly used public APIs `s()`, `validate()`, `Validator.validateAsync()` and `TypeConverter` with the smallest entry.

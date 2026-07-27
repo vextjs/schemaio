@@ -21,5 +21,5 @@ For more information, see:
 
 ## Corresponding sample file
 
-**Example entry**: [multi-language.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/multi-language.ts)
+**Example entry**: [multi-language.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/multi-language.ts)
 **Description**: Minimal runtime example showing default language, per-coverage `locale`, and list of available languages.

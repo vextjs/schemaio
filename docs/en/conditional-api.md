@@ -1276,5 +1276,5 @@ validate(contactSchema, '13800138000'); // ✅ Verify as mobile phone number
 
 ## Corresponding sample file
 
-**Example entry**: [conditional-api.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/conditional-api.ts)
+**Example entry**: [conditional-api.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/conditional-api.ts)
 **Description**: Also overrides `.check()` / `.assert()` in failed predicate mode, as well as field name version `s.if(field, then, else)` and `s.match()` mapping.

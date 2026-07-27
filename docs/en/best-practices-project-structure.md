@@ -443,5 +443,5 @@ router.post('/register', (req, res) => {
 
 ## Corresponding sample file
 
-**Example entry**: [best-practices-project-structure.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/best-practices-project-structure.ts)
+**Example entry**: [best-practices-project-structure.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/best-practices-project-structure.ts)
 **Description**: Use a minimal `userSchemas` object to simulate the centralized definition/routing multiplexing structure and directly verify the two paths of registration and login.

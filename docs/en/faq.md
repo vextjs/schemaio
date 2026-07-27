@@ -556,7 +556,7 @@ If you have further questions:
 1. View [Full Document](doc-index.md)
 2. Check out the [DSL Syntax Guide](dsl-syntax.md)
 3. View [API Reference](api-reference.md)
-4. Submit [GitHub Issue](https://github.com/vextjs/schema-dsl/issues)
+4. Submit [GitHub Issue](https://github.com/devcodex-labs/schema-dsl/issues)
 
 ---
 
@@ -572,5 +572,5 @@ If you have further questions:
 
 ## Corresponding sample file
 
-**Example entry**: [faq.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/faq.ts)
+**Example entry**: [faq.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/faq.ts)
 **Instructions**: Put the 4 most commonly copied scenarios in the FAQ into a runnable example: single validation, multi-language errors, batch validation, and cache statistics.

@@ -693,5 +693,5 @@ Following these best practices, your schema-dsl code will have:
 
 ## Corresponding sample file
 
-**Example entry**: [best-practices.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/best-practices.ts)
+**Example entry**: [best-practices.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/best-practices.ts)
 **Description**: Shows the recommended combination of "using pure DSL for simple fields, partially using Builder for complex fields, and reusing field libraries", as well as the two validation paths of success/failure.

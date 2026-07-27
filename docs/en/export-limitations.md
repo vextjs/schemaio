@@ -548,5 +548,5 @@ s('active|inactive|banned')
 
 ## Corresponding sample file
 
-**Example entry**: [export-limitations.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/export-limitations.ts)
+**Example entry**: [export-limitations.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/export-limitations.ts)
 **Description**: Shows the division of labor between "complete application layer schema" and "database export-specific simplified schema", as well as the implementation results of the three types of exporters on static schemas.

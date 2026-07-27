@@ -556,7 +556,7 @@ const schema = s({
 1. 查看 [完整文档](doc-index.md)
 2. 查看 [DSL 语法指南](dsl-syntax.md)
 3. 查看 [API 参考](api-reference.md)
-4. 提交 [GitHub Issue](https://github.com/vextjs/schema-dsl/issues)
+4. 提交 [GitHub Issue](https://github.com/devcodex-labs/schema-dsl/issues)
 
 ---
 
@@ -572,6 +572,6 @@ const schema = s({
 
 ## 对应示例文件
 
-**示例入口**: [faq.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/faq.ts)  
+**示例入口**: [faq.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/faq.ts)  
 **说明**: 把 FAQ 里最常被复制的 4 类场景放在一个可运行示例中: 单次验证、多语言错误、批量验证、缓存统计。
 

@@ -475,15 +475,15 @@ describe('User Schema', () => {
 If the above method does not solve your problem:
 
 1. **View Documentation**: [Full Documentation Index](doc-index.md)
-2. **View example**: [troubleshooting.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/troubleshooting.ts)
-3. **GitHub Issues**: [Submit an issue](https://github.com/vextjs/schema-dsl/issues)
+2. **View example**: [troubleshooting.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/troubleshooting.ts)
+3. **GitHub Issues**: [Submit an issue](https://github.com/devcodex-labs/schema-dsl/issues)
 4. **FAQ**: [FAQ.md](faq.md)
 
 ---
 
 ## Corresponding sample file
 
-**Example entry**: [troubleshooting.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/troubleshooting.ts)
+**Example entry**: [troubleshooting.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/troubleshooting.ts)
 **Description**: Demonstrates how to use `validate()` and `compile()` to reproduce errors, view paths/keywords/messages, and quickly locate the cause of failure.
 
 ---

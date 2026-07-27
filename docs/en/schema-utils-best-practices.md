@@ -15,5 +15,5 @@
 
 ## Corresponding sample file
 
-**Example entry**: [schema-utils-best-practices.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/schema-utils-best-practices.ts)
+**Example entry**: [schema-utils-best-practices.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/schema-utils-best-practices.ts)
 **Description**: Three scenarios of creation, public return, and partial update are used to demonstrate the recommended organization method of field library reuse and derived schema.

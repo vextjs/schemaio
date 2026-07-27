@@ -734,7 +734,7 @@ s('string!').pattern(/^[a-z]+$/)
 
 ## Corresponding sample file
 
-**Example entry**: [dsl-syntax.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/dsl-syntax.ts)
+**Example entry**: [dsl-syntax.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/dsl-syntax.ts)
 **Description**: Covers the basic types, constraints, enumerations, arrays and nested object writing methods of DSL syntax in Batch 1, and can be run directly for reference.
 
 ---

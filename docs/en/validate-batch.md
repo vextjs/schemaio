@@ -44,5 +44,5 @@ console.log(results);
 
 ## Corresponding sample file
 
-**Example entry**: [validate-batch.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/validate-batch.ts)
+**Example entry**: [validate-batch.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/validate-batch.ts)
 **Description**: Covers `Validator.validateBatch()`’s single compilation, multiple data reuse, and failed item error output.

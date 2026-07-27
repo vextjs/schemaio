@@ -45,5 +45,5 @@ const containsRangeSchema = {
 
 ## Corresponding sample file
 
-**Example entry**: [json-schema-basics.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/json-schema-basics.ts)
+**Example entry**: [json-schema-basics.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/json-schema-basics.ts)
 **Description**: Directly compare the output differences between `toSchema()` and `toJsonSchema()`, and display the JSON Schema structure returned by the object entry.

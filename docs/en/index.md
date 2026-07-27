@@ -17,7 +17,7 @@ hero:
       link: /doc-index
     - theme: alt
       text: GitHub
-      link: https://github.com/vextjs/schema-dsl
+      link: https://github.com/devcodex-labs/schema-dsl
 
 features:
   - title: Progressive schema authoring
@@ -45,5 +45,5 @@ features:
 
 ## Corresponding sample file
 
-**Example entry**: [home.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/home.ts)
+**Example entry**: [home.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/home.ts)
 **Description**: Covering the DSL definition, convenient validation and compilation reuse path displayed on the home page, it can be used as the general entry template for Batch 1.

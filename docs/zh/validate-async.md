@@ -472,13 +472,13 @@ new ValidationError(errors, data)
 - [SchemaUtils 链式调用](schema-utils-chaining.md) - Schema 复用简化方法
 - [validate.md](validate.md) - 传统同步验证方法
 - [error-handling.md](error-handling.md) - 错误处理指南
-- [validate-async 完整示例](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/validate-async.ts) - 顶层 `validateAsync()`、`ValidationError` 与 async `.custom()` 示例
+- [validate-async 完整示例](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/validate-async.ts) - 顶层 `validateAsync()`、`ValidationError` 与 async `.custom()` 示例
 
 ---
 
 ## 对应示例文件
 
-**示例入口**: [validate-async.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/validate-async.ts)  
+**示例入口**: [validate-async.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/validate-async.ts)  
 **说明**: 覆盖 `validateAsync()` 的成功路径、`ValidationError` 捕获、Promise-returning `.custom()`，以及结构校验后业务层异步检查的可选方式。
 
 ---

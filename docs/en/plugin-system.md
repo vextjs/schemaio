@@ -385,5 +385,5 @@ pluginManager.install(schemaDsl, 'custom-type-example');
 
 ## Corresponding sample file
 
-**Example entry**: [plugin-system.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/plugin-system.ts)
+**Example entry**: [plugin-system.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/plugin-system.ts)
 **Description**: Covers the registration/installation/uninstallation of custom plug-ins, `runHook()` execution results, and the installation effect of the official `custom-format` sub-path plug-in.

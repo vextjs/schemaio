@@ -52,6 +52,6 @@ Add any other information that may help explain the problem (screenshots, error 
 ## Checklist
 
 - [ ] I have searched existing Issues and found no duplicate
-- [ ] I have read the [documentation](https://github.com/vextjs/schema-dsl#readme)
+- [ ] I have read the [documentation](https://github.com/devcodex-labs/schema-dsl#readme)
 - [ ] I have provided complete steps to reproduce
 - [ ] I have provided environment information

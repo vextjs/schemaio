@@ -471,5 +471,5 @@ s.config({
 
 ## Corresponding sample file
 
-**Example entry**: [i18n-user-guide.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/i18n-user-guide.ts)
+**Example entry**: [i18n-user-guide.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/i18n-user-guide.ts)
 **Description**: Overrides `s.config({ i18n: { locales:... } })`’s object configuration method, loaded language list, and runtime switching of different locales.

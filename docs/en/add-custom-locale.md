@@ -491,11 +491,11 @@ If you have trouble adding a language pack:
 
 - View [Multi-language Configuration Guide](./i18n.md)
 - View [Dynamic Multi-Language Configuration Guide](./dynamic-locale.md)
-- Submit Issue: https://github.com/vextjs/schema-dsl/issues
+- Submit Issue: https://github.com/devcodex-labs/schema-dsl/issues
 
 ---
 
 ## Corresponding sample file
 
-**Example entry**: [add-custom-locale.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/add-custom-locale.ts)
+**Example entry**: [add-custom-locale.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/add-custom-locale.ts)
 **Description**: Minimal workflow that covers `Locale.addLocale()` registering a new language, reading message text, and performing validation under a custom locale.

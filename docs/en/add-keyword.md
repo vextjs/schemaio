@@ -30,5 +30,5 @@ For more AJV keyword definitions, please refer to the AJV official documentation
 
 ## Corresponding sample file
 
-**Example entry**: [add-keyword.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/add-keyword.ts)
+**Example entry**: [add-keyword.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/add-keyword.ts)
 **Description**: Cover the minimum registration and validation path of `Validator.addKeyword()`, and directly display the success/failure results.

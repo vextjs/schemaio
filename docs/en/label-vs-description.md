@@ -327,5 +327,5 @@ apiKey: s('string:32!').label('API key')
 
 ## Corresponding sample file
 
-**Example entry**: [label-vs-description.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/label-vs-description.ts)
+**Example entry**: [label-vs-description.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/label-vs-description.ts)
 **Description**: Directly show the actual placement point of `_label` / `description` in the schema, and how the validation error consumes `label`.

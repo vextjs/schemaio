@@ -4,15 +4,15 @@
 
 **Progressive TypeScript schema DSL for concise, serializable field rules — one schema for validation, reuse, export, documentation, and i18n.**
 
-📚 **Documentation**: [https://vextjs.github.io/schema-dsl](https://vextjs.github.io/schema-dsl)
+📚 **Documentation**: [https://devcodex-labs.github.io/schema-dsl](https://devcodex-labs.github.io/schema-dsl)
 
 [![npm version](https://img.shields.io/npm/v/schema-dsl.svg?style=flat-square)](https://www.npmjs.com/package/schema-dsl)
 [![npm downloads](https://img.shields.io/npm/dm/schema-dsl.svg?style=flat-square)](https://www.npmjs.com/package/schema-dsl)
-[![Build Status](https://github.com/vextjs/schema-dsl/workflows/CI/badge.svg)](https://github.com/vextjs/schema-dsl/actions)
+[![Build Status](https://github.com/devcodex-labs/schema-dsl/workflows/CI/badge.svg)](https://github.com/devcodex-labs/schema-dsl/actions)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Native-3178C6.svg?style=flat-square)](https://www.typescriptlang.org/)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)
 
-[Quick Start](#quick-start) · [Documentation](https://vextjs.github.io/schema-dsl) · [Feature Overview](#feature-overview) · [Examples](./examples)
+[Quick Start](#quick-start) · [Documentation](https://devcodex-labs.github.io/schema-dsl) · [Feature Overview](#feature-overview) · [Examples](./examples)
 
 ```bash
 npm install schema-dsl
@@ -53,30 +53,30 @@ Then that **same set of rules** continues to power:
 - ✅ **Unified error model** — `ValidationError` + `I18nError`
 - ✅ **Internationalization** — 5 built-in locales (zh-CN / en-US / ja-JP / es-ES / fr-FR), switchable at runtime
 
-**5-minute tutorial**: [Quick Start](https://vextjs.github.io/schema-dsl/quick-start) | **Full docs**: [Online Documentation](https://vextjs.github.io/schema-dsl)
+**5-minute tutorial**: [Quick Start](https://devcodex-labs.github.io/schema-dsl/quick-start) | **Full docs**: [Online Documentation](https://devcodex-labs.github.io/schema-dsl)
 
 ---
 
 ## 🗺️ Documentation
 
 **Getting started**:
-- [Quick Start](https://vextjs.github.io/schema-dsl/quick-start) — up and running in 5 minutes
+- [Quick Start](https://devcodex-labs.github.io/schema-dsl/quick-start) — up and running in 5 minutes
 - [DSL Syntax Reference](#dsl-syntax-reference) — syntax cheatsheet
-- [FAQ](https://vextjs.github.io/schema-dsl/faq) — common questions
+- [FAQ](https://devcodex-labs.github.io/schema-dsl/faq) — common questions
 
 **Core features**:
-- [validate()](https://vextjs.github.io/schema-dsl/validate) — synchronous validation API
-- [SchemaUtils](https://vextjs.github.io/schema-dsl/schema-utils) — schema reuse
-- [Conditional Validation API](https://vextjs.github.io/schema-dsl/conditional-api) — s.if / s.match
-- [Async Validation & Framework Integration](https://vextjs.github.io/schema-dsl/validate-async) — Express / Koa / Fastify
-- [Error Handling & i18n](https://vextjs.github.io/schema-dsl/error-handling) — error model
+- [validate()](https://devcodex-labs.github.io/schema-dsl/validate) — synchronous validation API
+- [SchemaUtils](https://devcodex-labs.github.io/schema-dsl/schema-utils) — schema reuse
+- [Conditional Validation API](https://devcodex-labs.github.io/schema-dsl/conditional-api) — s.if / s.match
+- [Async Validation & Framework Integration](https://devcodex-labs.github.io/schema-dsl/validate-async) — Express / Koa / Fastify
+- [Error Handling & i18n](https://devcodex-labs.github.io/schema-dsl/error-handling) — error model
 
 **Export & integration**:
-- [Export Guide](https://vextjs.github.io/schema-dsl/export-guide) — MongoDB / MySQL / PostgreSQL
-- [TypeScript Guide](https://vextjs.github.io/schema-dsl/typescript-guide) — type inference and usage
-- [Extensions and Integration](https://vextjs.github.io/schema-dsl/extensions-overview) — custom business types, keywords, runtime isolation, and plugins
+- [Export Guide](https://devcodex-labs.github.io/schema-dsl/export-guide) — MongoDB / MySQL / PostgreSQL
+- [TypeScript Guide](https://devcodex-labs.github.io/schema-dsl/typescript-guide) — type inference and usage
+- [Extensions and Integration](https://devcodex-labs.github.io/schema-dsl/extensions-overview) — custom business types, keywords, runtime isolation, and plugins
 
-**Full docs**: [Online Documentation](https://vextjs.github.io/schema-dsl) · [Chinese Documentation](./docs/zh/index.md) · [Feature Index](https://vextjs.github.io/schema-dsl/FEATURE-INDEX)
+**Full docs**: [Online Documentation](https://devcodex-labs.github.io/schema-dsl) · [Chinese Documentation](./docs/zh/index.md) · [Feature Index](https://devcodex-labs.github.io/schema-dsl/FEATURE-INDEX)
 
 ---
 
@@ -399,17 +399,17 @@ const markdown = exporters.MarkdownExporter.export(productSchema, { title: 'Prod
 
 | Use case | API | Docs |
 |----------|-----|------|
-| API parameter validation | `validateAsync` + `ValidationError` | [Async Validation](https://vextjs.github.io/schema-dsl/validate-async) |
-| Form / script validation | `validate()` | [validate()](https://vextjs.github.io/schema-dsl/validate) |
-| Batch data validation | `SchemaUtils.validateBatch()` | [SchemaUtils](https://vextjs.github.io/schema-dsl/schema-utils) |
-| create / update derivation | `pick / omit / partial` | [SchemaUtils](https://vextjs.github.io/schema-dsl/schema-utils) |
-| Database table creation | `MongoDBExporter / MySQLExporter` | [Export Guide](https://vextjs.github.io/schema-dsl/export-guide) |
-| Field documentation | `MarkdownExporter` | [Export Guide](https://vextjs.github.io/schema-dsl/export-guide) |
-| Multilingual API errors | `I18nError` | [Error Handling](https://vextjs.github.io/schema-dsl/error-handling) |
-| Conditional / dynamic rules | `s.if()` / `s.match()` | [Conditional API](https://vextjs.github.io/schema-dsl/conditional-api) |
-| Custom DSL types | `registerExtensions([...])` / `s.registerExtension()` | [Extensions Overview](https://vextjs.github.io/schema-dsl/extensions-overview) |
-| No global String extension | `schema-dsl/pure` | [API Reference](https://vextjs.github.io/schema-dsl/api-reference) |
-| Compile-time string-chain transform | `transformSchemaDsl()` / `schemaDslEsbuildPlugin()` | [API Reference](https://vextjs.github.io/schema-dsl/api-reference) |
+| API parameter validation | `validateAsync` + `ValidationError` | [Async Validation](https://devcodex-labs.github.io/schema-dsl/validate-async) |
+| Form / script validation | `validate()` | [validate()](https://devcodex-labs.github.io/schema-dsl/validate) |
+| Batch data validation | `SchemaUtils.validateBatch()` | [SchemaUtils](https://devcodex-labs.github.io/schema-dsl/schema-utils) |
+| create / update derivation | `pick / omit / partial` | [SchemaUtils](https://devcodex-labs.github.io/schema-dsl/schema-utils) |
+| Database table creation | `MongoDBExporter / MySQLExporter` | [Export Guide](https://devcodex-labs.github.io/schema-dsl/export-guide) |
+| Field documentation | `MarkdownExporter` | [Export Guide](https://devcodex-labs.github.io/schema-dsl/export-guide) |
+| Multilingual API errors | `I18nError` | [Error Handling](https://devcodex-labs.github.io/schema-dsl/error-handling) |
+| Conditional / dynamic rules | `s.if()` / `s.match()` | [Conditional API](https://devcodex-labs.github.io/schema-dsl/conditional-api) |
+| Custom DSL types | `registerExtensions([...])` / `s.registerExtension()` | [Extensions Overview](https://devcodex-labs.github.io/schema-dsl/extensions-overview) |
+| No global String extension | `schema-dsl/pure` | [API Reference](https://devcodex-labs.github.io/schema-dsl/api-reference) |
+| Compile-time string-chain transform | `transformSchemaDsl()` / `schemaDslEsbuildPlugin()` | [API Reference](https://devcodex-labs.github.io/schema-dsl/api-reference) |
 
 ---
 
@@ -589,20 +589,20 @@ const result = validator.validate(schema, { color: '#FF5733', mac: '00:1A:2B:3C:
 
 | API | Purpose | Returns | Docs |
 |-----|---------|---------|------|
-| `s(schema)` | Create a schema | Schema object | [DSL Syntax](https://vextjs.github.io/schema-dsl/dsl-syntax) |
-| `validate(schema, data)` | Synchronous validation | `{ valid, errors, data }` | [validate()](https://vextjs.github.io/schema-dsl/validate) |
-| `validateAsync(schema, data)` | Asynchronous validation | Promise (throws on failure) | [Async Validation](https://vextjs.github.io/schema-dsl/validate-async) |
-| `SchemaUtils.pick()` | Select fields | New schema | [SchemaUtils](https://vextjs.github.io/schema-dsl/schema-utils) |
-| `SchemaUtils.omit()` | Exclude fields | New schema | [SchemaUtils](https://vextjs.github.io/schema-dsl/schema-utils) |
-| `SchemaUtils.partial()` | Make all fields optional, or only selected fields optional when `fields` is provided | New schema | [SchemaUtils](https://vextjs.github.io/schema-dsl/schema-utils) |
-| `s.if(condition)` | Conditional validation | ConditionalBuilder | [Conditional API](https://vextjs.github.io/schema-dsl/conditional-api) |
-| `s.match(field, map)` | Branch validation | ConditionalBuilder | [Conditional API](https://vextjs.github.io/schema-dsl/conditional-api) |
-| `I18nError.throw()` | Throw an i18n error | never | [Error Handling](https://vextjs.github.io/schema-dsl/error-handling) |
-| `I18nError.assert()` | Assert then throw | void | [Error Handling](https://vextjs.github.io/schema-dsl/error-handling) |
-| `schema-dsl/pure` | Import the API without installing String extensions | API namespace | [API Reference](https://vextjs.github.io/schema-dsl/api-reference) |
-| `schema-dsl/string-types` | Opt into TypeScript hints for String-chain authoring | Type declarations | [TypeScript Usage](https://vextjs.github.io/schema-dsl/typescript-guide) |
-| `transformSchemaDsl()` | Rewrite static string-chain DSL calls at compile time | `{ code, changed, warnings }` | [API Reference](https://vextjs.github.io/schema-dsl/api-reference) |
-| `schemaDslEsbuildPlugin()` | Use the transform in esbuild build/context flows | esbuild plugin | [API Reference](https://vextjs.github.io/schema-dsl/api-reference) |
+| `s(schema)` | Create a schema | Schema object | [DSL Syntax](https://devcodex-labs.github.io/schema-dsl/dsl-syntax) |
+| `validate(schema, data)` | Synchronous validation | `{ valid, errors, data }` | [validate()](https://devcodex-labs.github.io/schema-dsl/validate) |
+| `validateAsync(schema, data)` | Asynchronous validation | Promise (throws on failure) | [Async Validation](https://devcodex-labs.github.io/schema-dsl/validate-async) |
+| `SchemaUtils.pick()` | Select fields | New schema | [SchemaUtils](https://devcodex-labs.github.io/schema-dsl/schema-utils) |
+| `SchemaUtils.omit()` | Exclude fields | New schema | [SchemaUtils](https://devcodex-labs.github.io/schema-dsl/schema-utils) |
+| `SchemaUtils.partial()` | Make all fields optional, or only selected fields optional when `fields` is provided | New schema | [SchemaUtils](https://devcodex-labs.github.io/schema-dsl/schema-utils) |
+| `s.if(condition)` | Conditional validation | ConditionalBuilder | [Conditional API](https://devcodex-labs.github.io/schema-dsl/conditional-api) |
+| `s.match(field, map)` | Branch validation | ConditionalBuilder | [Conditional API](https://devcodex-labs.github.io/schema-dsl/conditional-api) |
+| `I18nError.throw()` | Throw an i18n error | never | [Error Handling](https://devcodex-labs.github.io/schema-dsl/error-handling) |
+| `I18nError.assert()` | Assert then throw | void | [Error Handling](https://devcodex-labs.github.io/schema-dsl/error-handling) |
+| `schema-dsl/pure` | Import the API without installing String extensions | API namespace | [API Reference](https://devcodex-labs.github.io/schema-dsl/api-reference) |
+| `schema-dsl/string-types` | Opt into TypeScript hints for String-chain authoring | Type declarations | [TypeScript Usage](https://devcodex-labs.github.io/schema-dsl/typescript-guide) |
+| `transformSchemaDsl()` | Rewrite static string-chain DSL calls at compile time | `{ code, changed, warnings }` | [API Reference](https://devcodex-labs.github.io/schema-dsl/api-reference) |
+| `schemaDslEsbuildPlugin()` | Use the transform in esbuild build/context flows | esbuild plugin | [API Reference](https://devcodex-labs.github.io/schema-dsl/api-reference) |
 
 ---
 
@@ -630,7 +630,7 @@ try {
 ```
 
 > **Note**: In TypeScript projects, use `s('...')` or `s.xxx()` to get builder chain hints without adding global `String` declarations. DSL string literals also support lightweight value-type extraction through `InferSchema` / `InferDslString`, but constraints such as length ranges, regexes, defaults, and custom validators remain runtime schema rules.
-> See the [TypeScript Guide](https://vextjs.github.io/schema-dsl/typescript-guide) for details.
+> See the [TypeScript Guide](https://devcodex-labs.github.io/schema-dsl/typescript-guide) for details.
 
 ---
 
@@ -655,7 +655,7 @@ npm run dev
 ## 🤝 Contributing
 
 ```bash
-git clone https://github.com/vextjs/schema-dsl.git
+git clone https://github.com/devcodex-labs/schema-dsl.git
 cd schema-dsl
 npm install
 npm test
@@ -668,29 +668,29 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
 ## 🔗 Links
 
 ### 📖 Core documentation
-- [Quick Start](https://vextjs.github.io/schema-dsl/quick-start) — up and running in 5 minutes
-- [DSL Syntax Guide](https://vextjs.github.io/schema-dsl/dsl-syntax) — complete syntax reference
-- [validate()](https://vextjs.github.io/schema-dsl/validate) — synchronous validation API
-- [API Reference](https://vextjs.github.io/schema-dsl/api-reference) — complete API docs
-- [TypeScript Guide](https://vextjs.github.io/schema-dsl/typescript-guide) — required reading for TS users
-- [Best Practices](https://vextjs.github.io/schema-dsl/best-practices) — avoid common pitfalls
-- [Troubleshooting](https://vextjs.github.io/schema-dsl/troubleshooting) — diagnosing issues
+- [Quick Start](https://devcodex-labs.github.io/schema-dsl/quick-start) — up and running in 5 minutes
+- [DSL Syntax Guide](https://devcodex-labs.github.io/schema-dsl/dsl-syntax) — complete syntax reference
+- [validate()](https://devcodex-labs.github.io/schema-dsl/validate) — synchronous validation API
+- [API Reference](https://devcodex-labs.github.io/schema-dsl/api-reference) — complete API docs
+- [TypeScript Guide](https://devcodex-labs.github.io/schema-dsl/typescript-guide) — required reading for TS users
+- [Best Practices](https://devcodex-labs.github.io/schema-dsl/best-practices) — avoid common pitfalls
+- [Troubleshooting](https://devcodex-labs.github.io/schema-dsl/troubleshooting) — diagnosing issues
 
 ### 🎯 Feature documentation
-- [SchemaUtils](https://vextjs.github.io/schema-dsl/schema-utils)
-- [Conditional Validation API](https://vextjs.github.io/schema-dsl/conditional-api)
-- [Async Validation](https://vextjs.github.io/schema-dsl/validate-async)
-- [Error Handling & i18n](https://vextjs.github.io/schema-dsl/error-handling)
-- [Union Types](https://vextjs.github.io/schema-dsl/union-types)
-- [Enum Types](https://vextjs.github.io/schema-dsl/enum)
+- [SchemaUtils](https://devcodex-labs.github.io/schema-dsl/schema-utils)
+- [Conditional Validation API](https://devcodex-labs.github.io/schema-dsl/conditional-api)
+- [Async Validation](https://devcodex-labs.github.io/schema-dsl/validate-async)
+- [Error Handling & i18n](https://devcodex-labs.github.io/schema-dsl/error-handling)
+- [Union Types](https://devcodex-labs.github.io/schema-dsl/union-types)
+- [Enum Types](https://devcodex-labs.github.io/schema-dsl/enum)
 
 ### 🗄️ Export & integration
-- [Export Guide](https://vextjs.github.io/schema-dsl/export-guide)
-- [MongoDB Exporter](https://vextjs.github.io/schema-dsl/mongodb-exporter)
-- [MySQL Exporter](https://vextjs.github.io/schema-dsl/mysql-exporter)
-- [PostgreSQL Exporter](https://vextjs.github.io/schema-dsl/postgresql-exporter)
-- [Markdown Exporter](https://vextjs.github.io/schema-dsl/markdown-exporter)
-- [⚠️ Export Limitations](https://vextjs.github.io/schema-dsl/export-limitations)
+- [Export Guide](https://devcodex-labs.github.io/schema-dsl/export-guide)
+- [MongoDB Exporter](https://devcodex-labs.github.io/schema-dsl/mongodb-exporter)
+- [MySQL Exporter](https://devcodex-labs.github.io/schema-dsl/mysql-exporter)
+- [PostgreSQL Exporter](https://devcodex-labs.github.io/schema-dsl/postgresql-exporter)
+- [Markdown Exporter](https://devcodex-labs.github.io/schema-dsl/markdown-exporter)
+- [⚠️ Export Limitations](https://devcodex-labs.github.io/schema-dsl/export-limitations)
 
 ### 💻 Examples
 - Run all documentation examples with `npm run examples:run`.

@@ -87,5 +87,5 @@ runtime.registerExtensions([
 
 ## Corresponding sample file
 
-**Example entry**: [extensions-overview.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/extensions-overview.ts)
+**Example entry**: [extensions-overview.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/extensions-overview.ts)
 **Note**: Shows custom DSL type, runtime-scoped type, and validation keyword paths side by side.

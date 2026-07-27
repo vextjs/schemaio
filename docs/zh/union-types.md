@@ -266,7 +266,7 @@ DslBuilder.registerType('phone_cn', { ... });
 
 - [扩展概览](./extensions-overview.md)
 - [自定义 DSL 类型](./custom-extensions.md)
-- [贡献指南](https://github.com/vextjs/schema-dsl/blob/main/CONTRIBUTING.md)
+- [贡献指南](https://github.com/devcodex-labs/schema-dsl/blob/main/CONTRIBUTING.md)
 
 ---
 
@@ -278,6 +278,6 @@ DslBuilder.registerType('phone_cn', { ... });
 
 ## 对应示例文件
 
-**示例入口**: [union-types.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/union-types.ts)  
+**示例入口**: [union-types.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/union-types.ts)  
 **说明**: 覆盖 `types:` 语法的 `oneOf` 生成、字符串/数字联合，以及内置类型与自定义类型混用路径。
 

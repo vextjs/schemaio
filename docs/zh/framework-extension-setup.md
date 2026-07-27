@@ -125,5 +125,5 @@ declare module 'schema-dsl/pure' {
 
 ## 对应示例文件
 
-**示例入口**: [framework-extension-setup.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/framework-extension-setup.ts)
+**示例入口**: [framework-extension-setup.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/framework-extension-setup.ts)
 **说明**: 演示应用级 installer、runtime 作用域 installer、transform 配置、验证和清理。

@@ -112,7 +112,7 @@
 
 | 资源 | 用途 |
 |------|------|
-| [examples/docs](https://github.com/vextjs/schema-dsl/blob/main/examples/docs) | 文档页对应的 companion examples。 |
-| [doc-index.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/doc-index.ts) | 串起快速开始、编译和文档导出的最小入口脚本。 |
+| [examples/docs](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs) | 文档页对应的 companion examples。 |
+| [doc-index.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/doc-index.ts) | 串起快速开始、编译和文档导出的最小入口脚本。 |
 
 当前验证命令和测试数量以仓库脚本与项目 Profile 为准，不在本页维护静态统计。

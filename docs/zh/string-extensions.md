@@ -507,13 +507,13 @@ const schema = s({
 - [DSL 语法](./dsl-syntax.md)
 - [API 参考](./api-reference.md)
 - [多语言支持](./multi-language.md)
-- [示例代码](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/string-extensions.ts)
+- [示例代码](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/string-extensions.ts)
 
 ---
 
 ## 对应示例文件
 
-**示例入口**: [string-extensions.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/string-extensions.ts)  
+**示例入口**: [string-extensions.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/string-extensions.ts)  
 **说明**: 覆盖 String.prototype 扩展的安装/卸载、链式 `.label()` / `.messages()` / `.pattern()` 调用，以及校验成功/失败路径。
 
 ---

@@ -12,7 +12,7 @@ Describe your question clearly.
 
 ## What Have You Tried
 
-- [ ] I have read the [documentation](https://github.com/vextjs/schema-dsl#readme)
+- [ ] I have read the [documentation](https://github.com/devcodex-labs/schema-dsl#readme)
 - [ ] I have searched existing Issues
 
 ## What Are You Trying to Achieve

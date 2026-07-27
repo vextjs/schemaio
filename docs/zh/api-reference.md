@@ -1346,7 +1346,7 @@ v2 是基于 v1 JavaScript 线的 TypeScript 重构。以下根导出仍属于�
 | `PluginManager` | v1 兼容插件流程使用的插件注册与 hook 管理器。 | [plugin-system.md](./plugin-system.md) |
 | `resetRuntimeState` | 用于测试和 worker 清理的全局运行时状态重置工具。 | 本页 |
 
-对应示例 [api-reference.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/api-reference.ts) 会运行这些导出，`npm run examples:run` 可用于捕获 API reference 漂移。
+对应示例 [api-reference.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/api-reference.ts) 会运行这些导出，`npm run examples:run` 可用于捕获 API reference 漂移。
 
 ---
 
@@ -1394,14 +1394,14 @@ console.log(result.valid); // true
 
 - [DSL 语法完整指南](./dsl-syntax.md)
 - [错误处理](./error-handling.md)
-- [示例代码](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/api-reference.ts)
-- [GitHub](https://github.com/vextjs/schema-dsl)
+- [示例代码](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/api-reference.ts)
+- [GitHub](https://github.com/devcodex-labs/schema-dsl)
 
 ---
 
 ## 对应示例文件
 
-**示例入口**: [api-reference.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/api-reference.ts)  
+**示例入口**: [api-reference.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/api-reference.ts)  
 **说明**: 覆盖 `s()`、`validate()`、`validateAsync()`、默认 `Validator` 单例、`CacheManager`、`CustomKeywords`、`I18nError`、`PluginManager`、`CONSTANTS`、模板渲染、`JSONSchemaCore`、`ErrorFormatter`、`ObjectDslBuilder` 与 `TypeRegistry` 等公开 API 的可运行调用链。
 
 ---

@@ -87,5 +87,5 @@ runtime.registerExtensions([
 
 ## 对应示例文件
 
-**示例入口**: [extensions-overview.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/extensions-overview.ts)
+**示例入口**: [extensions-overview.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/extensions-overview.ts)
 **说明**: 并排展示自定义 DSL 类型、runtime 作用域类型和自定义校验关键字路径。

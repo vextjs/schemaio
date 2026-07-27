@@ -1287,6 +1287,6 @@ validate(contactSchema, '13800138000');       // ✅ 作为手机号验证
 
 ## 对应示例文件
 
-**示例入口**: [conditional-api.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/conditional-api.ts)  
+**示例入口**: [conditional-api.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/conditional-api.ts)  
 **说明**: 同时覆盖失败谓词模式下的 `.check()` / `.assert()`，以及字段名版本 `s.if(field, then, else)` 和 `s.match()` 映射。
 

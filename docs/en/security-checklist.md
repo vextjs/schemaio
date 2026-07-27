@@ -18,5 +18,5 @@ Complete tests and build validation should be re-run after dependency upgrades.
 
 ## Corresponding sample file
 
-**Example entry**: [security-checklist.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/security-checklist.ts)
+**Example entry**: [security-checklist.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/security-checklist.ts)
 **Description**: Use placeholder tokens, restricted character sets, and explicit URL validation to demonstrate how to write "do not expose real credentials" and "regular expressions must be bounded" in the document.

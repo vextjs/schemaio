@@ -304,5 +304,5 @@ If your team chooses explicit optional markers, use `?` consistently for fields 
 
 ## Corresponding sample file
 
-**Example entry**: [optional-marker-guide.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/optional-marker-guide.ts)
+**Example entry**: [optional-marker-guide.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/optional-marker-guide.ts)
 **Description**: Cover the basic fields, object fields and default optional enumeration scenarios of `!` / `?` to directly display the success/failure path.

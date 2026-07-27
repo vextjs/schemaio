@@ -473,13 +473,13 @@ new ValidationError(errors, data)
 - [SchemaUtils chain call](schema-utils-chaining.md) - Schema reuse simplified method
 - [validate.md](validate.md) - Traditional synchronous validation method
 - [error-handling.md](error-handling.md) - Error handling guide
-- [validate-async complete example](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/validate-async.ts) - Top-level `validateAsync()`, `ValidationError` and async `.custom()` examples
+- [validate-async complete example](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/validate-async.ts) - Top-level `validateAsync()`, `ValidationError` and async `.custom()` examples
 
 ---
 
 ## Corresponding sample file
 
-**Example entry**: [validate-async.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/validate-async.ts)
+**Example entry**: [validate-async.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/validate-async.ts)
 **Description**: Covers the success path of `validateAsync()`, `ValidationError` capture, Promise-returning `.custom()`, and the optional method of business layer asynchronous checking after structure validation.
 
 ---

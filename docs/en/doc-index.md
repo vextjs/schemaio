@@ -112,7 +112,7 @@ This page is a document map. The left sidebar keeps the main learning path, whil
 
 | Resource | Purpose |
 |----------|---------|
-| [examples/docs](https://github.com/vextjs/schema-dsl/blob/main/examples/docs) | Companion examples for the documentation pages. |
-| [doc-index.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/doc-index.ts) | Small entry script that connects quick start, compilation, and document export. |
+| [examples/docs](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs) | Companion examples for the documentation pages. |
+| [doc-index.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/doc-index.ts) | Small entry script that connects quick start, compilation, and document export. |
 
 For current validation commands and test counts, use the repository scripts and project Profile rather than static numbers on this page.

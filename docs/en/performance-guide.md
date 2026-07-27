@@ -125,5 +125,5 @@ The guard runs each tracked scenario three times and uses the median. On the sam
 
 ## Corresponding sample file
 
-**Example entry**: [performance-guide.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/performance-guide.ts)
+**Example entry**: [performance-guide.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/performance-guide.ts)
 **Description**: Shows schema and validator reuse, cache statistics, and timing metadata added by `SchemaUtils.withPerformance()`.

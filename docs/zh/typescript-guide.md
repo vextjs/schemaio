@@ -597,13 +597,13 @@ s.config({
 - [DSL 语法完整指南](./dsl-syntax.md)
 - [验证规则参考](./validation-guide.md)
 - [错误处理指南](./error-handling.md)
-- [GitHub 仓库](https://github.com/vextjs/schema-dsl)
+- [GitHub 仓库](https://github.com/devcodex-labs/schema-dsl)
 
 ---
 
 ## 对应示例文件
 
-**示例入口**: [typescript-guide.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/typescript-guide.ts)  
+**示例入口**: [typescript-guide.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/typescript-guide.ts)  
 **说明**: 展示 TypeScript 下推荐的三种编写入口、`validate<T>()` / `validateAsync<T>()`、以及 `ValidationError` 的字段错误读取方式。
 
 ---

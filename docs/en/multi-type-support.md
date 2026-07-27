@@ -307,5 +307,5 @@ The multi-type support of schema-dsl adopts type-independent Builder + method in
 
 ## Corresponding sample file
 
-**Example entry**: [multi-type-support.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/multi-type-support.ts)
+**Example entry**: [multi-type-support.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/multi-type-support.ts)
 **Description**: The recommended way to use an object to cover string, number, Boolean, date, array and enumeration fields at the same time, as well as the corresponding success/failure validation path.

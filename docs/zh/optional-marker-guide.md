@@ -304,6 +304,6 @@ const schema = s({
 
 ## 对应示例文件
 
-**示例入口**: [optional-marker-guide.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/optional-marker-guide.ts)  
+**示例入口**: [optional-marker-guide.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/optional-marker-guide.ts)  
 **说明**: 覆盖 `!` / `?` 的基础字段、对象字段和默认可选枚举场景，直接展示成功 / 失败路径。
 

@@ -292,5 +292,5 @@ app.use((req, res, next) => {
 
 ## Corresponding sample file
 
-**Example entry**: [frontend-i18n-guide.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/frontend-i18n-guide.ts)
+**Example entry**: [frontend-i18n-guide.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/frontend-i18n-guide.ts)
 **Description**: Covers common front-end language priority parsing, form submission validation, and organizing error arrays into field-level error mapping.

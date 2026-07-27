@@ -25,7 +25,7 @@ We welcome all types of contributions, including:
 
 ```bash
 # Clone the repository
-git clone https://github.com/vextjs/schema-dsl.git
+git clone https://github.com/devcodex-labs/schema-dsl.git
 cd schema-dsl
 
 # Install dependencies
@@ -191,7 +191,7 @@ Releases are managed by maintainers. The process follows:
 
 ## Getting Help
 
-- Open an [Issue](https://github.com/vextjs/schema-dsl/issues) for bugs or feature requests.
+- Open an [Issue](https://github.com/devcodex-labs/schema-dsl/issues) for bugs or feature requests.
 - Email: rockyshi1993@gmail.com
 
 ## License

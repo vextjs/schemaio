@@ -48,5 +48,5 @@ Related methods: `compile()`, `validate()`, `validateAsync()`, `validateBatch()`
 
 ## Corresponding sample file
 
-**Example entry**: [validator.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/validator.ts)
+**Example entry**: [validator.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/validator.ts)
 **Description**: Covers `new Validator()`’s common configuration, single validation, compilation cache hits and `validateBatch()` reuse paths.

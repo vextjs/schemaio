@@ -166,5 +166,5 @@ parser 和 compiler 都是运行时组件，因此同一份 schema 定义可以�
 
 ## 对应示例文件
 
-**示例入口**: [design-philosophy.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/design-philosophy.ts)
+**示例入口**: [design-philosophy.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/design-philosophy.ts)
 **说明**: 展示配置规则、序列化、反序列化和验证的设计闭环。

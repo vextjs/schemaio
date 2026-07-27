@@ -632,5 +632,5 @@ runtime 作用域需要看清这些事：
 
 ## 对应示例文件
 
-**示例入口**: [custom-extensions.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/custom-extensions.ts)
+**示例入口**: [custom-extensions.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/custom-extensions.ts)
 **说明**: 示例使用声明式参数化 API。在本仓库内运行示例前，请先执行本地构建，确保 `dist/` 与源码一致。

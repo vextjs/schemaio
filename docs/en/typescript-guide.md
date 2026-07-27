@@ -597,13 +597,13 @@ s.config({
 - [Complete Guide to DSL Syntax](./dsl-syntax.md)
 - [Validation Rules Reference](./validation-guide.md)
 - [Error Handling Guide](./error-handling.md)
-- [GitHub repository](https://github.com/vextjs/schema-dsl)
+- [GitHub repository](https://github.com/devcodex-labs/schema-dsl)
 
 ---
 
 ## Corresponding sample file
 
-**Example entry**: [typescript-guide.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/typescript-guide.ts)
+**Example entry**: [typescript-guide.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/typescript-guide.ts)
 **Description**: Shows the three recommended TypeScript authoring entries, `validate<T>()` / `validateAsync<T>()`, and `ValidationError` field error reading.
 
 ---

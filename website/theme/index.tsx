@@ -63,17 +63,17 @@ const footerCopy: Record<'en' | 'zh', FooterCopy> = {
         links: [
           {
             text: 'GitHub',
-            href: 'https://github.com/vextjs/schema-dsl',
+            href: 'https://github.com/devcodex-labs/schema-dsl',
             external: true
           },
           {
             text: 'Changelog',
-            href: 'https://github.com/vextjs/schema-dsl/blob/main/CHANGELOG.md',
+            href: 'https://github.com/devcodex-labs/schema-dsl/blob/main/CHANGELOG.md',
             external: true
           },
           {
             text: 'Apache-2.0',
-            href: 'https://github.com/vextjs/schema-dsl/blob/main/LICENSE',
+            href: 'https://github.com/devcodex-labs/schema-dsl/blob/main/LICENSE',
             external: true
           }
         ]
@@ -105,17 +105,17 @@ const footerCopy: Record<'en' | 'zh', FooterCopy> = {
         links: [
           {
             text: 'GitHub',
-            href: 'https://github.com/vextjs/schema-dsl',
+            href: 'https://github.com/devcodex-labs/schema-dsl',
             external: true
           },
           {
             text: '更新日志',
-            href: 'https://github.com/vextjs/schema-dsl/blob/main/CHANGELOG.md',
+            href: 'https://github.com/devcodex-labs/schema-dsl/blob/main/CHANGELOG.md',
             external: true
           },
           {
             text: 'Apache-2.0',
-            href: 'https://github.com/vextjs/schema-dsl/blob/main/LICENSE',
+            href: 'https://github.com/devcodex-labs/schema-dsl/blob/main/LICENSE',
             external: true
           }
         ]

@@ -283,5 +283,5 @@ exporter.generateIndex('users', 'metadata', { method: 'gin' });
 
 ## Corresponding sample file
 
-**Example entry**: [postgresql-exporter.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/postgresql-exporter.ts)
+**Example entry**: [postgresql-exporter.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/postgresql-exporter.ts)
 **Description**: Covers PostgreSQL DDL export, CHECK constraint expression, and `generateIndex()` generates `gin` index.

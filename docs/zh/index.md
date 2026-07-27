@@ -17,7 +17,7 @@ hero:
       link: /zh/doc-index
     - theme: alt
       text: GitHub
-      link: https://github.com/vextjs/schema-dsl
+      link: https://github.com/devcodex-labs/schema-dsl
 
 features:
   - title: 渐进式 Schema 编写
@@ -45,7 +45,7 @@ features:
 
 ## 对应示例文件
 
-**示例入口**: [home.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/home.ts)  
+**示例入口**: [home.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/home.ts)  
 **说明**: 覆盖首页展示的 DSL 定义、便捷验证与编译复用路径，可作为 Batch 1 的总入口样板。
 
 

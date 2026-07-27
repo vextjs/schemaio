@@ -275,5 +275,5 @@ async function createValidatedCollection() {
 
 ## Corresponding sample file
 
-**Example entry**: [mongodb-exporter.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/mongodb-exporter.ts)
+**Example entry**: [mongodb-exporter.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/mongodb-exporter.ts)
 **Description**: Covers `$jsonSchema` export, `generateCreateCommand()` and `generateCommand()`, corresponding to the validation set creation scenario in the document.

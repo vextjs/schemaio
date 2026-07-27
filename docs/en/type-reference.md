@@ -279,5 +279,5 @@ A: Abbreviations such as `s`/`n`/`i`/`b` are not supported. Use the complete typ
 
 ## Corresponding sample file
 
-**Example entry**: [type-reference.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/type-reference.ts)
+**Example entry**: [type-reference.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/type-reference.ts)
 **Description**: Use a schema to string together commonly used built-in types, parameterized DSL types and runtime error paths to facilitate quick validation of the actual support range.

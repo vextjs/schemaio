@@ -328,5 +328,5 @@ function compareSchemaVersions(oldSchema, newSchema) {
 
 ## Corresponding sample file
 
-**Example entry**: [schema-helper.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/schema-helper.ts)
+**Example entry**: [schema-helper.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/schema-helper.ts)
 **Description**: Covers `isValidSchema()`, `generateSchemaId()`, `flattenSchema()`, `extractRequiredFields()`, `summarizeSchema()` and `compareSchemas()`.

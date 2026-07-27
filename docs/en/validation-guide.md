@@ -447,7 +447,7 @@ async function validateWithFallback(data) {
 
 ## Corresponding sample file
 
-**Example entry**: [validation-guide.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/validation-guide.ts)
+**Example entry**: [validation-guide.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/validation-guide.ts)
 **Description**: Covers the recommended validation process: defining reusable schema, formatting errors, precompilation reuse, and batch validation.
 
 ### 5. Test validation logic

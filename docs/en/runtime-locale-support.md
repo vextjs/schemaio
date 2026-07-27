@@ -520,7 +520,7 @@ app.get('/api/users/:id', async (req, res) => {
 
 ## Corresponding sample file
 
-**Example entry**: [runtime-locale-support.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/runtime-locale-support.ts)
+**Example entry**: [runtime-locale-support.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/runtime-locale-support.ts)
 **Description**: Overrides the key behavior of specifying locale creation error objects at runtime, parameter interpolation, and "local language switching does not pollute the global state".
 
 ---

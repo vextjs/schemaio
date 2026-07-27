@@ -1405,7 +1405,7 @@ v2 is a TypeScript refactor of the v1 JavaScript line. These root exports remain
 | `PluginManager` | Plugin registry and hook manager for v1-compatible plugin workflows. | [plugin-system.md](./plugin-system.md) |
 | `resetRuntimeState` | Test and worker cleanup helper for global runtime state. | This page |
 
-The companion example [api-reference.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/api-reference.ts) exercises these exports so API reference drift is caught by `npm run examples:run`.
+The companion example [api-reference.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/api-reference.ts) exercises these exports so API reference drift is caught by `npm run examples:run`.
 
 ---
 
@@ -1453,14 +1453,14 @@ console.log(result.valid); // true
 
 - [Complete DSL Syntax Guide](./dsl-syntax.md)
 - [Error Handling](./error-handling.md)
-- [Example code](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/api-reference.ts)
-- [GitHub](https://github.com/vextjs/schema-dsl)
+- [Example code](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/api-reference.ts)
+- [GitHub](https://github.com/devcodex-labs/schema-dsl)
 
 ---
 
 ## Corresponding Example File
 
-**Example entry**: [api-reference.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/api-reference.ts)
+**Example entry**: [api-reference.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/api-reference.ts)
 **Description**: Covers runnable call chains for `s()`, `validate()`, `validateAsync()`, the default `Validator` singleton, `CacheManager`, `CustomKeywords`, `I18nError`, `PluginManager`, `CONSTANTS`, template rendering, `JSONSchemaCore`, `ErrorFormatter`, `ObjectDslBuilder`, `TypeRegistry`, and other public APIs.
 
 ---

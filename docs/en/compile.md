@@ -40,5 +40,5 @@ console.log(validate({ name: 'Rocky' }));
 
 ## Corresponding sample file
 
-**Example entry**: [compile.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/compile.ts)
+**Example entry**: [compile.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/compile.ts)
 **Description**: Covers the reuse of compilation results of `compile()`, hits of `cacheKey`, and reading error details from the validation function in failure scenarios.

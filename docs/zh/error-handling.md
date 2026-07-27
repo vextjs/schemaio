@@ -1923,9 +1923,9 @@ function handleError(error) {
 
 ### 更多信息
 
-- [v1.1.5 完整变更日志](https://github.com/vextjs/schema-dsl/blob/main/changelogs/v1.1.5.md)
-- [升级指南](https://github.com/vextjs/schema-dsl/blob/main/changelogs/v1.1.5.md#升级指南)
-- [最佳实践](https://github.com/vextjs/schema-dsl/blob/main/changelogs/v1.1.5.md#最佳实践)
+- [v1.1.5 完整变更日志](https://github.com/devcodex-labs/schema-dsl/blob/main/changelogs/v1.1.5.md)
+- [升级指南](https://github.com/devcodex-labs/schema-dsl/blob/main/changelogs/v1.1.5.md#升级指南)
+- [最佳实践](https://github.com/devcodex-labs/schema-dsl/blob/main/changelogs/v1.1.5.md#最佳实践)
 
 ---
 
@@ -1935,13 +1935,13 @@ function handleError(error) {
 - [DSL 语法指南](./dsl-syntax.md)
 - [String 扩展文档](./string-extensions.md)
 - [多语言配置](./dynamic-locale.md)
-- [v1.1.5 变更日志](https://github.com/vextjs/schema-dsl/blob/main/changelogs/v1.1.5.md)
+- [v1.1.5 变更日志](https://github.com/devcodex-labs/schema-dsl/blob/main/changelogs/v1.1.5.md)
 
 ---
 
 ## 对应示例文件
 
-**示例入口**: [error-handling.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/error-handling.ts)
+**示例入口**: [error-handling.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/error-handling.ts)
 **说明**: 覆盖 `validate()` 产生的字段错误、`I18nError` 业务错误对象、`toJSON()` 输出与错误码判断。
 
 ---

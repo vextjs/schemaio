@@ -121,7 +121,7 @@ const schema = dsl({ username: "string" }).pattern(/^[a-zA-Z0-9_]{3,32}$/);
 
 No known security vulnerabilities at this time.
 
-Historical advisories: <https://github.com/vextjs/schema-dsl/security/advisories>
+Historical advisories: <https://github.com/devcodex-labs/schema-dsl/security/advisories>
 
 ## Acknowledgements
 

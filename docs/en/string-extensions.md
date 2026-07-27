@@ -507,13 +507,13 @@ const schema = s({
 - [DSL syntax](./dsl-syntax.md)
 - [API Reference](./api-reference.md)
 - [Multi-language support](./multi-language.md)
-- [Sample code](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/string-extensions.ts)
+- [Sample code](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/string-extensions.ts)
 
 ---
 
 ## Corresponding sample file
 
-**Example entry**: [string-extensions.ts](https://github.com/vextjs/schema-dsl/blob/main/examples/docs/string-extensions.ts)
+**Example entry**: [string-extensions.ts](https://github.com/devcodex-labs/schema-dsl/blob/main/examples/docs/string-extensions.ts)
 **Description**: Covers the installation/uninstallation of String.prototype extension, chained `.label()` / `.messages()` / `.pattern()` calls, and validation success/failure paths.
 
 ---
